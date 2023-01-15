@@ -8,6 +8,7 @@
 import Foundation
 
 extension Project {
+    
     var projectTitle: String {
         title ?? "New Project"
     }
@@ -40,8 +41,12 @@ extension Project {
         return Double(completedItems.count) / Double(originalItems.count)
     }
     
-    
     var projectItems: [Item] {
+        items?.allObjects as? [Item] ?? []
+    }
+
+    
+    var projectItemsDefaultSorted: [Item] {
         let itemsArray = items?.allObjects as? [Item] ?? []
 
         return itemsArray.sorted { first, second in

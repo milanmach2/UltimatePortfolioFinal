@@ -15,6 +15,7 @@
 		FE1423BE29741183002EDE0E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1423BD29741183002EDE0E /* DataController.swift */; };
 		FECED14B2974343C00A47C92 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECED14A2974343C00A47C92 /* EditItemView.swift */; };
 		FECED14D297437ED00A47C92 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECED14C297437ED00A47C92 /* ItemRowView.swift */; };
+		FECED14F29743CE000A47C92 /* Extension-Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECED14E29743CE000A47C92 /* Extension-Binding.swift */; };
 		FED7C8C829741EEE0027AFBA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED7C8C729741EEE0027AFBA /* HomeView.swift */; };
 		FED7C8CA29741F780027AFBA /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED7C8C929741F780027AFBA /* ProjectsView.swift */; };
 		FED7C8CC297424600027AFBA /* Items-CoreData-Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED7C8CB297424600027AFBA /* Items-CoreData-Helpers.swift */; };
@@ -31,6 +32,7 @@
 		FE1423BD29741183002EDE0E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		FECED14A2974343C00A47C92 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		FECED14C297437ED00A47C92 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		FECED14E29743CE000A47C92 /* Extension-Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-Binding.swift"; sourceTree = "<group>"; };
 		FED7C8C729741EEE0027AFBA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FED7C8C929741F780027AFBA /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		FED7C8CB297424600027AFBA /* Items-CoreData-Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Items-CoreData-Helpers.swift"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				FED7C8CB297424600027AFBA /* Items-CoreData-Helpers.swift */,
 				FED7C8CD297424B20027AFBA /* Projects-CoreData-Helpers.swift */,
 				FE1423AE29740F5C002EDE0E /* ContentView.swift */,
+				FECED14E29743CE000A47C92 /* Extension-Binding.swift */,
 				FECED14A2974343C00A47C92 /* EditItemView.swift */,
 				FE1423B029740F5D002EDE0E /* Assets.xcassets */,
 				FE1423BA2974103A002EDE0E /* Main.xcdatamodeld */,
@@ -170,6 +173,7 @@
 				FE1423BE29741183002EDE0E /* DataController.swift in Sources */,
 				FE1423AF29740F5C002EDE0E /* ContentView.swift in Sources */,
 				FECED14D297437ED00A47C92 /* ItemRowView.swift in Sources */,
+				FECED14F29743CE000A47C92 /* Extension-Binding.swift in Sources */,
 				FED7C8CE297424B20027AFBA /* Projects-CoreData-Helpers.swift in Sources */,
 				FED7C8CC297424600027AFBA /* Items-CoreData-Helpers.swift in Sources */,
 				FED7C8C829741EEE0027AFBA /* HomeView.swift in Sources */,

@@ -14,13 +14,15 @@ struct UltimatePortfolioFinalApp: App {
         let dataController = DataController()
         _dataController = StateObject(wrappedValue: dataController)
     }
-
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, dataController.container.viewContext)// for SwiftUI
-                    .environmentObject(dataController)// our own code
-
+                    .environmentObject(dataController)// for us - our own code
+                    .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification), perform: save) // trggered by Notification
         }
+    }
+    func save(_ note: Notification) {
+        dataController.save() // our own code changes All Data in Store - Hard Disc
     }
 }
