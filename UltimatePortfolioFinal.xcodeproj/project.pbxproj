@@ -27,6 +27,8 @@
 		FECED1662975060E00A47C92 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FECED1682975060E00A47C92 /* Localizable.strings */; };
 		FECED16B2975063B00A47C92 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = FECED16D2975063B00A47C92 /* Localizable.stringsdict */; };
 		FECED174297508F500A47C92 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = FECED176297508F500A47C92 /* Awards.json */; };
+		FECED17A29751A8500A47C92 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECED17929751A8500A47C92 /* ItemListView.swift */; };
+		FECED17D2975D5F300A47C92 /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECED17C2975D5F300A47C92 /* ProjectSummaryView.swift */; };
 		FED7C8C829741EEE0027AFBA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED7C8C729741EEE0027AFBA /* HomeView.swift */; };
 		FED7C8CA29741F780027AFBA /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED7C8C929741F780027AFBA /* ProjectsView.swift */; };
 		FED7C8CC297424600027AFBA /* Items-CoreData-Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED7C8CB297424600027AFBA /* Items-CoreData-Helpers.swift */; };
@@ -58,6 +60,8 @@
 		FECED16F2975064400A47C92 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		FECED175297508F500A47C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		FECED1782975097500A47C92 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
+		FECED17929751A8500A47C92 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		FECED17C2975D5F300A47C92 /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 		FED7C8C729741EEE0027AFBA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FED7C8C929741F780027AFBA /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		FED7C8CB297424600027AFBA /* Items-CoreData-Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Items-CoreData-Helpers.swift"; sourceTree = "<group>"; };
@@ -100,11 +104,13 @@
 				FED7C8CF29742D9F0027AFBA /* UltimatePortfolioFinal.entitlements */,
 				FE1423AC29740F5C002EDE0E /* UltimatePortfolioFinalApp.swift */,
 				FED7C8C729741EEE0027AFBA /* HomeView.swift */,
+				FECED17C2975D5F300A47C92 /* ProjectSummaryView.swift */,
 				FECED1522974843D00A47C92 /* EditProjectView.swift */,
 				FECED154297484F500A47C92 /* ProjectHeaderView.swift */,
 				FED7C8C929741F780027AFBA /* ProjectsView.swift */,
 				FECED1562974999200A47C92 /* SelectSomethingView.swift */,
 				FECED14C297437ED00A47C92 /* ItemRowView.swift */,
+				FECED17929751A8500A47C92 /* ItemListView.swift */,
 				FED7C8CB297424600027AFBA /* Items-CoreData-Helpers.swift */,
 				FED7C8CD297424B20027AFBA /* Projects-CoreData-Helpers.swift */,
 				FECED1502974760300A47C92 /* Extensions-Sequence.swift */,
@@ -210,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FED7C8CA29741F780027AFBA /* ProjectsView.swift in Sources */,
+				FECED17D2975D5F300A47C92 /* ProjectSummaryView.swift in Sources */,
 				FE1423BC2974103A002EDE0E /* Main.xcdatamodeld in Sources */,
 				FECED15F29749E7600A47C92 /* AwardsView.swift in Sources */,
 				FE1423BE29741183002EDE0E /* DataController.swift in Sources */,
@@ -224,6 +231,7 @@
 				FED7C8C829741EEE0027AFBA /* HomeView.swift in Sources */,
 				FECED15B29749D0B00A47C92 /* Bundle-Decodable.swift in Sources */,
 				FECED1612974A56F00A47C92 /* Color-Aditions.swift in Sources */,
+				FECED17A29751A8500A47C92 /* ItemListView.swift in Sources */,
 				FE1423AD29740F5C002EDE0E /* UltimatePortfolioFinalApp.swift in Sources */,
 				FECED1512974760300A47C92 /* Extensions-Sequence.swift in Sources */,
 				FECED14B2974343C00A47C92 /* EditItemView.swift in Sources */,

@@ -5,7 +5,7 @@
 //  Created by Milan Mach on 15.01.2023.
 //
 
-import Foundation
+import SwiftUI
 
 extension Project {
     static let colors = ["Pink", "Purple", "Red", "Orange", "Gold", "Green", "Teal", "Light Blue", "Dark Blue", "Midnight", "Dark Gray", "Gray"]
@@ -21,6 +21,11 @@ extension Project {
     var projectColor: String {
         color ?? "Light Blue"
     }
+    
+    var label: LocalizedStringKey {
+        LocalizedStringKey("\(projectTitle), \(projectItems.count) items, \(completionAmount * 100, specifier: "%g")% complete.")
+    }
+
     
     static var example: Project {
         let controller = DataController(inMemory: true)
