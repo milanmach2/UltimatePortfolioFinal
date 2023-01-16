@@ -53,10 +53,8 @@
 		FECED15E29749E7600A47C92 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		FECED1602974A56F00A47C92 /* Color-Aditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Aditions.swift"; sourceTree = "<group>"; };
 		FECED1672975060E00A47C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		FECED1692975061600A47C92 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		FECED16A2975062200A47C92 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FECED16C2975063B00A47C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
-		FECED16E2975063F00A47C92 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "en-GB"; path = "en-GB.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
 		FECED16F2975064400A47C92 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		FECED175297508F500A47C92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		FECED1782975097500A47C92 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
@@ -240,7 +238,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				FECED1672975060E00A47C92 /* en */,
-				FECED1692975061600A47C92 /* en-GB */,
 				FECED16A2975062200A47C92 /* hu */,
 			);
 			name = Localizable.strings;
@@ -250,7 +247,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				FECED16C2975063B00A47C92 /* en */,
-				FECED16E2975063F00A47C92 /* en-GB */,
 				FECED16F2975064400A47C92 /* hu */,
 			);
 			name = Localizable.stringsdict;
