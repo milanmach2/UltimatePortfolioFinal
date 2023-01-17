@@ -14,10 +14,8 @@ struct ProjectSummaryView: View {
             Text("\(project.projectItems.count) items")
                 .font(.caption)
                 .foregroundColor(.secondary)
-
             Text(project.projectTitle)
                 .font(.title2)
-
             ProgressView(value: project.completionAmount)
                 .accentColor(Color(project.projectColor))
         } // vstack
@@ -27,8 +25,6 @@ struct ProjectSummaryView: View {
         .shadow(color: Color.black.opacity(0.2), radius: 5)
         .accessibilityElement(children: .ignore)
         .accessibilityLabel(project.label)
-
-
     }
 }
 

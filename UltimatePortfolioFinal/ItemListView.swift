@@ -18,7 +18,6 @@ struct ItemListView: View {
                 .font(.headline)
                 .foregroundColor(.secondary)
                 .padding(.top)
-
             ForEach(items) { item in
                 NavigationLink(destination: EditItemView(item: item)) {
                     HStack(spacing: 20) {
@@ -31,8 +30,6 @@ struct ItemListView: View {
                                 .font(.title2)
                                 .foregroundColor(.primary)
                                 .frame(maxWidth: .infinity, alignment: .leading)
-
-
                             if item.itemDetail.isEmpty == false {
                                 Text(item.itemDetail)
                                     .foregroundColor(.secondary)
@@ -44,14 +41,13 @@ struct ItemListView: View {
                     .cornerRadius(10)
                     .shadow(color: Color.black.opacity(0.2), radius: 5)
                 }
-
             }
         }
     }
 }
 
-//struct ItemListView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ItemListView(title: <#LocalizedStringKey#>, items: <#FetchedResults<Item>.SubSequence#>)
-//    }
-//}
+// struct ItemListView_Previews: PreviewProvider {
+//     static var previews: some View {
+//         ItemListView(title: <#LocalizedStringKey#>, items: <#FetchedResults<Item>.SubSequence#>)
+//     }
+// }

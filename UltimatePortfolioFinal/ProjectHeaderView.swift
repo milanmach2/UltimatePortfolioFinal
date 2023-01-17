@@ -37,4 +37,3 @@ struct ProjectHeaderView_Previews: PreviewProvider {
         ProjectHeaderView(project: Project.example)
     }
 }
-

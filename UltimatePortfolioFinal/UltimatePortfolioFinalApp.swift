@@ -17,9 +17,11 @@ struct UltimatePortfolioFinalApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, dataController.container.viewContext)// for SwiftUI
-                    .environmentObject(dataController)// for us - our own code
-                    .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification), perform: save) // trggered by Notification
+                .environment(\.managedObjectContext, dataController.container.viewContext) // for SwiftUI
+                    .environmentObject(dataController) // for us - our own code
+                    .onReceive(NotificationCenter.default.publisher(
+                        for: UIApplication.willResignActiveNotification),
+                               perform: save) // trggered by Notification
         }
     }
     func save(_ note: Notification) {
