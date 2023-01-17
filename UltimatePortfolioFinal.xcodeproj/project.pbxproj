@@ -145,13 +145,15 @@
 		FE1423AB29740F5C002EDE0E /* UltimatePortfolioFinal */ = {
 			isa = PBXGroup;
 			children = (
-				FECED19B2976713400A47C92 /* Models */,
-				FECED19C2976714500A47C92 /* Views */,
-				FECED19D2976715E00A47C92 /* Controllers */,
+				FECED1A12976798000A47C92 /* Home */,
+				FECED1A22976798A00A47C92 /* Projects */,
+				FECED1A32976799900A47C92 /* Awards */,
 				FECED1A0297672A800A47C92 /* Configurations */,
-				FECED19F2976724900A47C92 /* Localizations */,
 				FECED19E2976723800A47C92 /* Extension */,
+				FECED19F2976724900A47C92 /* Localizations */,
 				FE1423AC29740F5C002EDE0E /* UltimatePortfolioFinalApp.swift */,
+				FE1423BD29741183002EDE0E /* DataController.swift */,
+				FE1423AE29740F5C002EDE0E /* ContentView.swift */,
 				FE1423B029740F5D002EDE0E /* Assets.xcassets */,
 				FE1423B229740F5D002EDE0E /* Preview Content */,
 			);
@@ -183,42 +185,6 @@
 			path = UltimatePortfolioFinalTests;
 			sourceTree = "<group>";
 		};
-		FECED19B2976713400A47C92 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				FED7C8CB297424600027AFBA /* Items-CoreData-Helpers.swift */,
-				FED7C8CD297424B20027AFBA /* Projects-CoreData-Helpers.swift */,
-				FECED15C29749DFB00A47C92 /* Award.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		FECED19C2976714500A47C92 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				FED7C8C729741EEE0027AFBA /* HomeView.swift */,
-				FECED17C2975D5F300A47C92 /* ProjectSummaryView.swift */,
-				FECED17929751A8500A47C92 /* ItemListView.swift */,
-				FED7C8C929741F780027AFBA /* ProjectsView.swift */,
-				FECED1562974999200A47C92 /* SelectSomethingView.swift */,
-				FECED14C297437ED00A47C92 /* ItemRowView.swift */,
-				FE1423AE29740F5C002EDE0E /* ContentView.swift */,
-				FECED14A2974343C00A47C92 /* EditItemView.swift */,
-				FECED154297484F500A47C92 /* ProjectHeaderView.swift */,
-				FECED1522974843D00A47C92 /* EditProjectView.swift */,
-				FECED15E29749E7600A47C92 /* AwardsView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		FECED19D2976715E00A47C92 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				FE1423BD29741183002EDE0E /* DataController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		FECED19E2976723800A47C92 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +192,8 @@
 				FECED1502974760300A47C92 /* Extensions-Sequence.swift */,
 				FECED14E29743CE000A47C92 /* Binding-OnChange.swift */,
 				FECED1602974A56F00A47C92 /* Color-Aditions.swift */,
+				FED7C8CB297424600027AFBA /* Items-CoreData-Helpers.swift */,
+				FED7C8CD297424B20027AFBA /* Projects-CoreData-Helpers.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -235,7 +203,6 @@
 			children = (
 				FECED16D2975063B00A47C92 /* Localizable.stringsdict */,
 				FECED1682975060E00A47C92 /* Localizable.strings */,
-				FECED176297508F500A47C92 /* Awards.json */,
 			);
 			path = Localizations;
 			sourceTree = "<group>";
@@ -248,6 +215,39 @@
 				FED7C8CF29742D9F0027AFBA /* UltimatePortfolioFinal.entitlements */,
 			);
 			path = Configurations;
+			sourceTree = "<group>";
+		};
+		FECED1A12976798000A47C92 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FED7C8C729741EEE0027AFBA /* HomeView.swift */,
+				FECED17929751A8500A47C92 /* ItemListView.swift */,
+				FECED17C2975D5F300A47C92 /* ProjectSummaryView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FECED1A22976798A00A47C92 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				FED7C8C929741F780027AFBA /* ProjectsView.swift */,
+				FECED1562974999200A47C92 /* SelectSomethingView.swift */,
+				FECED154297484F500A47C92 /* ProjectHeaderView.swift */,
+				FECED14C297437ED00A47C92 /* ItemRowView.swift */,
+				FECED1522974843D00A47C92 /* EditProjectView.swift */,
+				FECED14A2974343C00A47C92 /* EditItemView.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		FECED1A32976799900A47C92 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				FECED15E29749E7600A47C92 /* AwardsView.swift */,
+				FECED15C29749DFB00A47C92 /* Award.swift */,
+				FECED176297508F500A47C92 /* Awards.json */,
+			);
+			path = Awards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
