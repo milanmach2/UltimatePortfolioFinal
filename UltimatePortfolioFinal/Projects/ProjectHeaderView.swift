@@ -37,3 +37,26 @@ struct ProjectHeaderView_Previews: PreviewProvider {
         ProjectHeaderView(project: Project.example)
     }
 }
+
+// Paul Hudson doesnt recommend this approach
+extension ProjectHeaderView {
+    class ViewModel: ObservableObject {
+        private let project: Project
+
+        var title: String {
+            project.projectTitle
+        }
+
+        var completionAmount: Double {
+            project.completionAmount
+        }
+
+        var color: String {
+            project.projectColor
+        }
+
+        init(project: Project) {
+            self.project = project
+        }
+    }
+}

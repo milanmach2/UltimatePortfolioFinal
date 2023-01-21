@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct EditProjectView: View {
-    var project: Project
+    @ObservedObject var project: Project
     @EnvironmentObject var dataController: DataController
     @Environment(\.presentationMode) var presentationMode
-    @State private var showingDeleteConfirm = false
     @State private var title: String
     @State private var detail: String
     @State private var color: String
+    @State private var showingDeleteConfirm = false
     let colorColumns = [
         GridItem(.adaptive(minimum: 44))
     ]

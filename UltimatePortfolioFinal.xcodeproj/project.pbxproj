@@ -24,6 +24,8 @@
 		FE190A3529789242009B0C1D /* UltimatePortfolioFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE190A3429789242009B0C1D /* UltimatePortfolioFinalUITests.swift */; };
 		FE190A3729789242009B0C1D /* UltimatePortfolioFinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE190A3629789242009B0C1D /* UltimatePortfolioFinalUITestsLaunchTests.swift */; };
 		FE6C8FCA2979EEB90059300A /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6C8FC92979EEB90059300A /* ProjectsViewModel.swift */; };
+		FE6C8FCC297B24810059300A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6C8FCB297B24810059300A /* HomeViewModel.swift */; };
+		FE6C8FCE297BE0A60059300A /* ItemRowViewModell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6C8FCD297BE0A60059300A /* ItemRowViewModell.swift */; };
 		FECED14B2974343C00A47C92 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECED14A2974343C00A47C92 /* EditItemView.swift */; };
 		FECED14D297437ED00A47C92 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECED14C297437ED00A47C92 /* ItemRowView.swift */; };
 		FECED14F29743CE000A47C92 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECED14E29743CE000A47C92 /* Binding-OnChange.swift */; };
@@ -84,6 +86,8 @@
 		FE190A3429789242009B0C1D /* UltimatePortfolioFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioFinalUITests.swift; sourceTree = "<group>"; };
 		FE190A3629789242009B0C1D /* UltimatePortfolioFinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioFinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FE6C8FC92979EEB90059300A /* ProjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
+		FE6C8FCB297B24810059300A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FE6C8FCD297BE0A60059300A /* ItemRowViewModell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowViewModell.swift; sourceTree = "<group>"; };
 		FECED14A2974343C00A47C92 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		FECED14C297437ED00A47C92 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		FECED14E29743CE000A47C92 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
@@ -251,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				FED7C8C729741EEE0027AFBA /* HomeView.swift */,
+				FE6C8FCB297B24810059300A /* HomeViewModel.swift */,
 				FECED17929751A8500A47C92 /* ItemListView.swift */,
 				FECED17C2975D5F300A47C92 /* ProjectSummaryView.swift */,
 			);
@@ -265,6 +270,7 @@
 				FECED1562974999200A47C92 /* SelectSomethingView.swift */,
 				FECED154297484F500A47C92 /* ProjectHeaderView.swift */,
 				FECED14C297437ED00A47C92 /* ItemRowView.swift */,
+				FE6C8FCD297BE0A60059300A /* ItemRowViewModell.swift */,
 				FECED1522974843D00A47C92 /* EditProjectView.swift */,
 				FECED14A2974343C00A47C92 /* EditItemView.swift */,
 			);
@@ -424,6 +430,7 @@
 				FE1423BC2974103A002EDE0E /* Main.xcdatamodeld in Sources */,
 				FECED15F29749E7600A47C92 /* AwardsView.swift in Sources */,
 				FE1423BE29741183002EDE0E /* DataController.swift in Sources */,
+				FE6C8FCC297B24810059300A /* HomeViewModel.swift in Sources */,
 				FE1423AF29740F5C002EDE0E /* ContentView.swift in Sources */,
 				FECED1532974843D00A47C92 /* EditProjectView.swift in Sources */,
 				FECED14D297437ED00A47C92 /* ItemRowView.swift in Sources */,
@@ -438,6 +445,7 @@
 				FECED17A29751A8500A47C92 /* ItemListView.swift in Sources */,
 				FE1423AD29740F5C002EDE0E /* UltimatePortfolioFinalApp.swift in Sources */,
 				FECED1512974760300A47C92 /* Extensions-Sequence.swift in Sources */,
+				FE6C8FCE297BE0A60059300A /* ItemRowViewModell.swift in Sources */,
 				FECED14B2974343C00A47C92 /* EditItemView.swift in Sources */,
 				FE6C8FCA2979EEB90059300A /* ProjectsViewModel.swift in Sources */,
 				FECED155297484F500A47C92 /* ProjectHeaderView.swift in Sources */,

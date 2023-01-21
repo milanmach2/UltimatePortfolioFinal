@@ -8,13 +8,11 @@
 import CoreData
 import SwiftUI
 
-
 /// An environment singleton responsible for managing our Core Data stack, including handling saving,
 /// counting fetch requests, tracking awards, and dealing with sample data.
 class DataController: ObservableObject {
     /// The lone CloudKit container used to store all our data.
     let container: NSPersistentCloudKitContainer
-    
     /// Initializes a data controller, either in memory (for temporary use such as testing and previewing),
     /// or on permanent storage (for use in regular app runs.)
     ///
@@ -35,7 +33,7 @@ class DataController: ObservableObject {
                 fatalError("Failed to load data\(error.localizedDescription)")
             }
             #if DEBUG
-            if CommandLine.arguments.contains("enable-testing"){
+            if CommandLine.arguments.contains("enable-testing") {
                 self.deleteAll()
             }
             #endif
@@ -95,7 +93,6 @@ class DataController: ObservableObject {
         let fetchRequest1: NSFetchRequest<NSFetchRequestResult> = Item.fetchRequest()
         let batchDeleteRequest1 = NSBatchDeleteRequest(fetchRequest: fetchRequest1)
         _ = try? container.viewContext.execute(batchDeleteRequest1)
-
         let fetchRequest2: NSFetchRequest<NSFetchRequestResult> = Project.fetchRequest()
         let batchDeleteRequest2 = NSBatchDeleteRequest(fetchRequest: fetchRequest2)
         _ = try? container.viewContext.execute(batchDeleteRequest2)
